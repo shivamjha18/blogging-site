@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blogging</title>
+    {% load static %}
+
+    <link rel="stylesheet" href=" {% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'utility.css' %}">
+    <link rel="stylesheet" href=" {% static 'mobile.css' %}s">
+    <style>
+        .left img{
+             border: 3px;
+             border-radius: 105px;
+        } 
+        .contact1{
+            text-align: center;
+            size: 100px;
+            margin: 100px;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <nav class="navigation maxwidth">
+        <div class="left">
+            <span> <img src="/static/me.jpg" alt="" width="50px"></span>
+            <ul>
+                <li><a href="/index">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <form action="/search.html" method="get">
+                <input class="form" type="text" name="query" placeholder="search here">
+                <button class="btn">search</button>
+            </form>
+        </div>
+
+
+    </nav>
+    <hr>
+    <form method="post" action="/contact">
+        {% csrf_token %}
+        <div class="contact1">
+            <h2>Feel Free to contact us!</h2>
+       <hr>
+        <label for="name">Enter your name</label> <br>
+       <input type="text" name="" id="" placeholder="Your Nme" name="name" required> <br>
+       <label for="email">Enter your Email</label> <br>
+       <input type="email" name="" id="" placeholder="Your Email" required name="email"> <br>
+       <label for="phone">Enter your Mobile Number</label> <br>
+       <input type="number" name="" id="" placeholder="Your Number"  name="phone" required> <br>
+       <label for="desc">Enter your Address</label> <br>
+       <textarea name="Address" id="" cols="20" rows="10" name="desc" required></textarea> <br>
+       <input type="submit" name="" id="" value="submit">
+    
+    
+        </div>
+    </form>
+    
+<hr>
+<div class="footer maxwidth2">
+    copyright @gmail.com
+
+</div>
+
+
+</body>
+
+</html>

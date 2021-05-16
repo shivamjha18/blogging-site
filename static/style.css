@@ -1,0 +1,255 @@
+.{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+     background-color:rgb(205, 233, 204); */
+}
+
+.navigation{
+    /* height: 50px; */
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color:cornflowerblue; */
+    /* background-color: rgb(95, 107, 173); */
+}
+
+.left  ul{
+    display: flex;
+    color: black;
+    
+
+}
+.left ul li{
+    
+    list-style: none;
+    margin: 0px 10px;
+
+}
+.navigation ul li a{
+    text-decoration: none;
+    margin: 0px 10px;
+    /* color: blanchedalmond; */
+}
+.navigation ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.3s;
+
+}
+
+.navigation,.left{
+    display: flex;
+    
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.content{
+    height: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  
+    /* background-color: lightblue;*/
+} 
+.content::after{
+    content: " ";
+    background-image: url('pro.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.13;
+}
+
+.conleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+.conright{
+    display: flex;
+    align-items: center;
+
+}
+    
+.footer{
+    height: 35px;
+    text-align: center;
+    background-color: darkviolet;
+}
+.form{
+   padding: 0px 5px; 
+   font-size: 16px;
+   margin: 0px 13px;
+   border-radius: 5px;
+   padding-top: 3px;
+}
+.btn{
+    padding: 0px 3px;
+    cursor: pointer;
+    padding-top: 3px;
+    transition: all 0.3s;
+}
+.btn:hover{
+    color: black;
+    background-color: lightgreen;
+
+}
+.conright img{
+      border: 3px;
+      border-radius: 105px;   
+}
+.homeartical{
+   
+    
+    margin: 20px;
+   
+    
+   
+}
+.articals{
+    display: flex;
+}
+.artical{
+    display: flex;
+    align-items: center;
+    padding: 8px 50px;
+    margin: 20px;
+    
+}
+
+
+.{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    /* background-color:rgb(182, 227, 228); */
+}
+
+.navigation{
+    /* height: 50px; */
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color:cornflowerblue; */
+    /* background-color: rgb(95, 107, 173); */
+}
+
+.left  ul{
+    display: flex;
+    color: black;
+    
+
+}
+.left ul li{
+    
+    list-style: none;
+    margin: 0px 10px;
+
+}
+.navigation ul li a{
+    text-decoration: none;
+    margin: 0px 10px;
+    /* color: blanchedalmond; */
+}
+.navigation ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.3s;
+
+}
+
+.navigation,.left{
+    display: flex;
+    
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.content{
+    height: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  
+    /* background-color: lightblue;*/
+} 
+.content::after{
+    content: " ";
+    background-image: url('pro.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.13;
+}
+.conleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+.conright{
+    display: flex;
+    align-items: center;
+
+}
+    
+.footer{
+    height: 35px;
+    text-align: center;
+    background-color: darkviolet;
+}
+.form{
+   padding: 0px 5px; 
+   font-size: 16px;
+   margin: 0px 13px;
+   border-radius: 5px;
+   padding-top: 3px;
+}
+.btn{
+    padding: 0px 3px;
+    cursor: pointer;
+    padding-top: 3px;
+    transition: all 0.3s;
+}
+.btn:hover{
+    color: black;
+    background-color: lightgreen;
+
+}
+.conright img{
+      border: 3px;
+      border-radius: 105px;   
+}
+.homeartical{
+   
+    
+    margin: 20px;
+   
+    
+   
+}
+.articals{
+    display: flex;
+}
+.artical{
+    display: flex;
+    align-items: center;
+    padding: 8px 50px;
+    margin: 20px;
+    
+}
+
+

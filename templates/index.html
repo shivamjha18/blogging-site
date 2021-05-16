@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blogging</title>
+    {% load static %}
+
+    <link rel="stylesheet" href=" {% static 'style.css' %}">
+    <link rel="stylesheet" href=" {% static 'mobile.css' %}">
+    <link rel="stylesheet" href=" {% static 'utility.css' %}">
+    <style>
+        .left img{
+             border: 3px;
+             border-radius: 105px;
+        } 
+        .artical a{
+            list-style: none;
+            text-decoration: none;
+            color: burlywood;
+
+        }
+        .artical a:hover{
+            background-color: cornsilk;
+            color: darkblue;
+        }
+    </style>
+     
+</head>
+
+<body >
+    <nav class="navigation maxwidth2">
+        <div class="left">
+            <span> <img src="/static/me.jpg" alt="" width="50px"></span>
+            <ul>
+                <li><a href=''>Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <form action="search.html" method="get">
+                <input class="form" type="text" name="query" placeholder="search here">
+                <button class="btn">search</button>
+            </form>
+        </div>
+
+
+    </nav>
+    <hr>
+   
+    <div class="content maxwidth">
+        <div class="conleft">
+           <h3>All Your Content Here</h3>
+            <p>search here what you like</p>
+        </div>
+        <div class="conright">
+            <img src="/static/pro.jpg" alt="nnooo">
+         
+        </div>
+
+    </div>
+    <div class="maxwidth">
+        <hr>
+    </div>
+    <div class="homeartical maxwidth">
+    
+        <div class="articals">
+        <h3>feature courses</h3>
+
+        </div>
+        <div class="artical">
+        <img src="/static/pro1.jpg" alt="" width="350px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p> Best c++ sources! <br> <button><a href="/cpp">CppHere</a> </button> </p>
+        
+        </div>
+         <div class="artical">
+        <img src="/static/pro2.png" alt="" width="350px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p> Best DSA sources! <br> <button><a href="/dsa">DsaHere</a></button> </p>
+        
+        </div>
+         <div class="artical">
+        <img src="/static/pro.jpg" alt="" width="350px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p> Best english sources! <br> <button><a href="/eng">EngHere</a></button> </p>
+        
+        
+        </div>
+    </div>
+    <hr>
+    
+    <div class="footer maxwidth2">
+        copyright @gmail.com
+
+    </div>
+</body>
+
+</html>
